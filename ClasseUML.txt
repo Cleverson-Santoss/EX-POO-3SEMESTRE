@@ -1,0 +1,35 @@
+Classe Main
+Main
+Métodos:
++ main(args: String[]): void
+
+Classe EquacaoSegundoGrau
+EquacaoSegundoGrau
+Atributos:
+- a: double
+- b: double
+- c: double
+Métodos:
++ EquacaoSegundoGrau(a: double, b: double, c: double)
++ calculaEquacaoSegundoGrau(): List<Double>
+
+Classe DesvioPadrao
+DesvioPadrao
+Atributos:
+- somatorio: double
+- media: double
+- resultado: double
+- lista: List<Double>
+Métodos:
++ DesvioPadrao(lista: List<Double>)
++ calculaDesvioPadrao(): double
+
+Classe Juros
+Juros
+Atributos:
+- mes: double
+- valor: double
+- percentual: double
+Métodos:
++ Juros(valor: double, mes: double, percentual: double)
++ jurosComposto(): double
